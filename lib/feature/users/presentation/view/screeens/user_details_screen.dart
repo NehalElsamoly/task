@@ -1,9 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:task/config/resources/app_text_style.dart';
-import 'package:task/config/responsive/responsive_extensions.dart';
-import '../../../../../core/enum/enum.dart';
-import '../../view_model/user_bloc.dart';
+part of '../../featurelin.dart';
 
 class UserDetailsScreen extends StatelessWidget {
   final int userId;

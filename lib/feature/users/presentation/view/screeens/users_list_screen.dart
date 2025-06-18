@@ -1,11 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:task/config/responsive/responsive_extensions.dart';
-import '../../../../../config/routes/routes_names.dart';
-import '../../../../../core/enum/enum.dart';
-import '../../view_model/user_bloc.dart';
-import 'user_details_screen.dart';
-import '../widgets/user_item.dart';
+
+part of '../../featurelin.dart';
 
 class UsersListScreen extends StatefulWidget {
   const UsersListScreen({super.key});
@@ -61,12 +55,6 @@ class _UsersListScreenState extends State<UsersListScreen> {
                   return UserItem(
                     user: user,
                     onTap: () {
-                      // Navigator.push(
-                      //   context,
-                      //   MaterialPageRoute(
-                      //     builder: (_) => UserDetailsScreen(userId: user.id),
-                      //   ),
-                      // );
                       Navigator.pushNamed(context, AppRoutesNames.rUsersListDetailsScreen, arguments: user.id);
                     },
                   );
