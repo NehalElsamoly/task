@@ -4,8 +4,7 @@
 import '../../core/services/services_locator.dart';
 import '../../core/utils/exports.dart';
 
-import '../../feature/users/presentation/view/screeens/user_details_screen.dart';
-import '../../feature/users/presentation/view/screeens/users_list_screen.dart';
+import '../../feature/users/presentation/featurelin.dart';
 import '../../feature/users/presentation/view_model/user_bloc.dart';
 import 'un_defined_route.dart';
 
